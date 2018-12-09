@@ -2,7 +2,7 @@ var topics = ["Battlefield V", "Dark Souls", "Battlefield 1", "COD WW2", "Kratos
 var button;
 var newGif = ""; 
 
-var buttonGenerator = function (){
+var topicButtons = function (){
 	 $("#buttonArea").empty();
 	for(i = 0; i < topics.length; i++) {
 		button = $("<button type=" + "button" + ">" + topics[i] + "</button>").addClass("btn btn-info").attr("data",topics[i]);
@@ -69,7 +69,7 @@ $(".submit").on("click", function(event){
 	newGif = $("#topic-input").val();
 	topics.push(newGif);
 	console.log(topics);
-	buttonGenerator();
+	topicButtons();
 });
 
-buttonGenerator(); 
+topicButtons(); 
