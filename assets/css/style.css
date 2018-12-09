@@ -1,0 +1,44 @@
+* {
+    font-family: 'Indie Flower', cursive;
+}
+  
+  body {
+      background-color:#262626;
+  }
+  
+  #wrap {
+      background-color:#262626;
+      color:#646464;
+  }
+  
+  #header {
+      background-color: darkred;
+      height:75px;
+  }
+  
+  #title {
+      color: lightgreen;
+      text-align:center;
+      padding-top:20px;
+  }
+  
+  #buttonArea{
+      margin-top:12px;
+  }
+  
+  .btn {
+      margin:4px;
+  }
+  
+  #gifDiv {
+      margin-top:20px;
+  }
+  
+  .submit {
+      background-color: darkorchid;
+      color: whitesmoke;
+  }
+
+  .clear {
+      clear:both;
+  }
